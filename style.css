@@ -1,0 +1,178 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #1e1f20;
+
+}
+
+#top-header {
+  background-image: url('123.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff; 
+  text-align: center;
+  padding: 100px 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+header, nav, section, article, footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #3498db;
+}
+
+section {
+  overflow: hidden;
+}
+
+.portfolio-img {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
+#skills {
+  overflow: hidden;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+  .skill {
+    width: 100%;
+  }
+}
+
+
+
+
+
+#contact-form {
+  max-width: 400px;
+  margin: 20px; 
+}
+
+.contact-form form {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-form form label {
+  font-weight: bold;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form form input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
